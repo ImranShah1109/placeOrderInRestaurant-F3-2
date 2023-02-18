@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+header{
+    background-color: rgb(78, 122, 255);
+    color: blanchedalmond;
+    position: fixed;
+    z-index: 3;
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+nav div{
+    padding: 20px 0px;
+}
+
+nav a{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #fff700;
+    font-size : 20px
+}
+nav .logo{
+    font-weight: 600;
+    font-style: italic;
+    position: relative;
+    left: 25px;
+    cursor: pointer;
+}
+
+.menu{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cart{
+    position: relative;
+    font-weight: 500;
+    right: 40px;
+    cursor: pointer;
+}
+
+#myResto{
+    background-image: url('https://media.istockphoto.com/id/922783734/photo/assorted-indian-recipes-food-various.jpg?s=612x612&w=0&k=20&c=p8DepvymWfC5j7c6En2UsQ6sUM794SQMwceeBW3yQ9M=');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 63px;
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
+}
+
+#myResto .title{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 100px;
+    color: rgb(78, 122, 255);
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+
+#myResto .disc{
+    font-weight: 600;
+    color: blanchedalmond;
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+    top: 100px;
+}
+
+#menuSection h3{
+    background-color: lawngreen;
+    color: rgb(48, 45, 40);
+    position: relative;
+    top: 65px;
+    text-align: center;
+    padding: 100px 0px;
+    font-weight: 300;
+}
+#menuSection .takeOrder{
+    text-decoration: none;
+    color: #000;
+    background-color: rgb(78, 122, 255);
+    padding: 10px 30px;
+    border: 1px solid rgb(97, 95, 95);
+    position: relative;
+    top: 5px;
+    left: 43%;
+}
+#takeOrderBtn{
+    background-color:transparent;
+    border: none;
+    width: 145px;
+    height: 39px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    cursor: pointer;
+}
+#menu{
+    background-color: lawngreen;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    top: 64px;
+}
+
+#menu div{
+    background-color: white;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: auto;
+}
+#menu .item img{
+    height: 300px;
+}
+#menu div span{
+    color: #000;
+    text-align: left;
+}
+
+#menu .item{
+    display: flex;
+    flex-direction: column;
+}
+
+#cart{
+    background-color: lawngreen;
+    position: relative;
+    top: 64px;
+}
+
+#cart .yourOrder{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+}
+
+#cart div{
+    background-color: white;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: auto;
+}
+
+#cart .item img{
+    height: 300px;
+}
+#cart div span{
+    color: #000;
+    text-align: left;
+}
+
+#cart .item{
+    display: flex;
+    flex-direction: column;
+}
+
+#cart h3{
+    background-color: lawngreen;
+    color: rgb(48, 45, 40);
+    position: relative;
+    text-align: center;
+    padding: 80px 0px;
+    font-weight: 300;
+}

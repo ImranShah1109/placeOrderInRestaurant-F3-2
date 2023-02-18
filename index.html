@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://designimages.appypie.com/favicon/restaurantfavicon-2-dynamite-weapon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>My Restaurant</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#myResto">My Restaurant</a>
+            </div>
+            <div class="menu">
+               <a href="#menuSection" id="menuLink">Menu</a>
+            </div>
+            <div class="cart">
+                <a href="#cart">Cart</a>
+            </div>
+        </nav>
+    </header>
+    <section id="myResto">
+        <div class="title">
+            Welcome To Awesome Place & Cool Restaurant
+        </div>
+        <div class="disc">
+            Order your Favourite Foods
+        </div>
+    </section>
+    <section id="menuSection" style="background: lawngreen;">
+        <h3>First click on Menu then Clicked Below Button to Generate your Order Randomly</h3>
+        <a class="takeOrder" href="#cart">Take Order
+            <button id="takeOrderBtn"></button>
+        </a>
+        <div id="menu">
+        </div>
+    </section>
+    <section id="cart" >
+        <h3 style="text-align: center;" id="orderHeading"></h3>
+        <div class="yourOrder">
+
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
